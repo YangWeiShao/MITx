@@ -16,10 +16,10 @@ def isIn(char, aStr):
         # print("2")                             # for debug
         return False
     elif char < aStr[cp]:
-        return isIn(char, aStr[:cp])
+        isIn(char, aStr[:cp])
         # print(aStr[:cp])                       # for debug
     else: # char > aStr[cp]
-        return isIn(char, aStr[cp:])
+        isIn(char, aStr[cp:])
         # print(aStr[:cp])                       # for debug
 
 c = 'b'        # can change c and s for test
